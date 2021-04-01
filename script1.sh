@@ -27,6 +27,7 @@ if [[ $greaterThanX = '1' ]] && [[ $lessThanX = '1' ]];
 then
 	((i =i + 1))
 	[[ $line =~ $patternY ]]
+	a=${BASH_REMATCH[0]}
 	greaterThanY=$(echo "$a < $j" | bc) 
 	lessThanY=$(echo "$a > $k" | bc)
 	if [[ $greaterThanY = '1' ]] && [[ $lessThanY = '1' ]];
