@@ -36,7 +36,7 @@ for line in read_data:						# reading line by line file with particle data
 print('Enter your min x of detectors:')
 xmin= int(input())
 
-xmin =647255
+#xmin =647255
 
 #print('Enter your max x of detectors:')
 #xmax= input()
