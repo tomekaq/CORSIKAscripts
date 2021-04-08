@@ -66,7 +66,7 @@ def checkIfHit(xOfParticle,detectorN):       		# function which check if  partic
 
 global numberofHit
 
-d=100
+#d=100
 def main(arrayWithParticles):
 	numberofHit = 0
 	numberOfParticles = len(arrayWithParticles)
