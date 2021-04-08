@@ -29,7 +29,7 @@ read_data = f.readlines()
 
 arrayWithXcoor = []     	        			# Creating the array with value of x coordinate     
 for line in read_data:						# reading line by line file with particle data 
-	match = re.search(r'x=([0-9]{1,10})',line) 		# parse line to select value of coordinate x
+	match = re.search(r'x=([+-]?[0-9]{1,15})',line) 		# parse line to select value of coordinate x
 	arrayWithXcoor.append(match.group(0).strip("x="))	
 
 
