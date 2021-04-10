@@ -2,8 +2,9 @@
 
 ########################################################
 #
-#	2D version checking only hit particle on x position
-# 	Program read .txt file with data from Corsika simulation 
+#	2D version checking if particle from CORSIKA simulation 
+#	hits in lattice of detectors. 	
+#	Program read .txt file with data from Corsika simulation 
 # 	and  test that particle with coordinate x, hit detector. 
 # 	In program there are simulation n detector equally deployed 
 # 	on one dimention lattice with this same size and same distance 
